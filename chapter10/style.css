@@ -60,3 +60,16 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+  .step-item {
+    width: 90%;
+    margin: 0 auto 20px;
+    float: none;
+  }
+  .step-item:last-child {
+    margin: 0 auto;
+  }
+}
